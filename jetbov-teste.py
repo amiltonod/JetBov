@@ -26,9 +26,9 @@ while contador < 11:
         gdm = (peso_final - peso_inicial) / tempo_total  # calculo de ganho medio diario do animal baseado nos dados
 
         print(f'Animal {animal} iniciará a rotação com {peso_inicial:.2f}Kg, terá um tempo de rotação de {tempo_total} '
-              f'dias com GMD de {gdm:.3f}.')  # print com informações de pertinentes ao criador
+              f'dias com GMD de {gdm:.2f}.')  # print com informações de pertinentes ao criador
         print(f'Podendo chegar ao final da rotação de pastagem com um peso de {peso_final:.2f}Kg.')
-        print('1 -> [SIM] 2 -> [NÃO]')  #condicional para adicionar mais animais
+        print('1 -> [SIM] 2 -> [NÃO]')  # condicional para adicionar mais animais
         add_cabeca = int(input('Inserir animal ao piquete: '))
         contador = contador + 1
     else:
