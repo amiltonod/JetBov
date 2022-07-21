@@ -1,0 +1,31 @@
+- Cada piquete terá uma capacidade de 10 animais com o maximo de utilização de 10 dias de pastagem.
+- Poderá ser lançada de acordo com dados o GDM de cada piquete.
+- Cada animal será classificado com brincos diversos de acordo com o criador.
+- Os piquetes após a utilização deverão ter no minímo 30 dias para recuperação do pasto.
+- A rotação começara sempre pelo piquete 1 de forma a padronizar a rotação, podendo ser modificado de acordo com a
+necessidade.
+
+- Para cada animal será incluido os seguintes dados:
+1 - Brinco
+2 - Peso atual(Que será o peso antes da rotação)
+
+- Será dada a informação dos piquetes dísponiveis para rotação, mas lembrando que será apenas para disponibilizar
+a informação pois no modelo do sistema a rotação é padronizada do piquete 1 em diante.
+- Após dada a informação dos piquetes disponíveis será pedido o tempo de permanencia de cada animal no piquete.
+
+- Dada as informações o software fara um calculo de GMD + peso atual para fazer uma pré analise futura da pesagem final
+do gado após o fim da rotação. Dispondo todas as informações dadas no inicio do programa como:
+1 - Brinco
+2 - Peso incial antes da rotação
+3 - Dias totais no pasto
+4 - GMD no total de dias de pastagem
+5 - Média do peso final da rotaçãp
+
+- O programa estabelecerá um limite total de cabeças de gado por piquete, ao tentar ultrapassar o limite irá emitir
+uma mensagem de advertência.
+- O loop contará com a opção de adcionar mais gados ou não ao piquete, caso o criador não queira adicionar mais gados
+o programa irá encerrar.
+
+
+
+
